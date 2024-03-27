@@ -1,0 +1,6 @@
+@TaskManager.API_HostAddress = http://localhost:5252
+
+GET {{TaskManager.API_HostAddress}}/TaskController/
+Accept: application/json
+
+###
